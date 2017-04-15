@@ -1,3 +1,4 @@
+# coding: utf-8
 source 'https://gems.ruby-china.org'
 
 git_source(:github) do |repo_name|
@@ -34,6 +35,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# 自定义的一些gems
+gem 'whenever', :require => false
+
+# vuejs migration
+gem 'vuejs-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,0 +1,18 @@
+<h1>NewsHub</h1>
+
+<div id='news_list'>
+  <table>
+    <thread>
+      <tr>
+        <th>Title</th>
+        <th>Url</th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr v-for="news in news_list">
+        <td>{{ news.title }}</td>
+        <td>{{ news.url }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
